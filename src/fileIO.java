@@ -15,7 +15,7 @@ class fileIO {
 
     public void writejumlahKamar(ArrayList<Integer> totalKamar) {
         try {
-            FileWriter fileWriter = new FileWriter("input.txt");
+            FileWriter fileWriter = new FileWriter("input.txt",true);
             BufferedWriter file = new BufferedWriter(fileWriter);
             for(int i = 0; i < totalKamar.size(); i++) {
                 String a = totalKamar.get(i).toString();
