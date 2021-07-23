@@ -1,4 +1,4 @@
-All : penambahan exception handling 
+All : penambahan exception handling pada class main
 
 Nama  : Steven Riyaldi
 NIM   : 03082200022
